@@ -1,1 +1,11 @@
-{"name": "honeypot-capstone","version": "1.0.0","description": "A basic honeypot server for the group capstone project.","main": "src/server.js","scripts": {"start": "node src/server.js","test": "echo \"No tests specified\" && exit 0"},"author": "","license": "MIT"}
+{
+  "name": "node-honeypot",
+  "version": "0.1.0",
+  "main": "src/honeypot.js",
+  "scripts": {
+    "start": "node src/honeypot.js",
+    "dev": "NODE_ENV=development node src/honeypot.js",
+    "test": "node tests/run-tests.js"
+  },
+  "engines": { "node": ">=18" }
+}
