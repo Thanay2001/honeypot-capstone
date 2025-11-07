@@ -11,3 +11,10 @@ logs/
 # OS files
 .DS_Store
 Thumbs.db
+node_modules/
+.env
+db/
+logs/
+*.sqlite
+*.db
+*.csv
