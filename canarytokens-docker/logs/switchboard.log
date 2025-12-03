@@ -1,0 +1,72 @@
+2025-11-24T22:46:09+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel Email
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel Webhook
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel DNS
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel HTTP
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel SMTP
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] cert found
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] cert found
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] cert found
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel MYSQL
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel WireGuard
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'C5BiVM6GYGkalu/4WwP+o7Gzb+gFHhrRUhIrXTkkwn4='
+2025-11-24T22:46:09+0000 [-] Loaded.
+2025-11-24T22:46:07+0000 [-] Loading switchboard.tac...
+2025-11-24T22:46:09+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel Email
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel Webhook
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel DNS
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel HTTP
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel SMTP
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] cert found
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] cert found
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls#debug] cert found
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel MYSQL
+2025-11-24T22:46:09+0000 [canarytokens.channel#info] Started channel WireGuard
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'C5BiVM6GYGkalu/4WwP+o7Gzb+gFHhrRUhIrXTkkwn4='
+2025-11-24T22:46:09+0000 [-] Loaded.
+2025-11-24T22:46:09+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 22.10.0 (/srv/.venv/bin/python 3.9.25) starting up.
+2025-11-24T22:46:09+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2025-11-24T22:46:09+0000 [-] DNSDatagramProtocol starting on 5354
+2025-11-24T22:46:09+0000 [-] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x7610c2f801f0>
+2025-11-24T22:46:09+0000 [-] Site starting on 8083
+2025-11-24T22:46:09+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site object at 0x7610c2f804f0>
+2025-11-24T22:46:09+0000 [-] CanarySMTPFactory starting on 2500
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_smtp.CanarySMTPFactory#info] Starting factory <canarytokens.channel_input_smtp.CanarySMTPFactory object at 0x7610c2f80580>
+2025-11-24T22:46:09+0000 [-] mTLSFactory (TLS) starting on 6443
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mtls.mTLSFactory#info] Starting factory <canarytokens.channel_input_mtls.mTLSFactory object at 0x7610c35e54f0>
+2025-11-24T22:46:09+0000 [-] CanaryMySQLFactory starting on 3306
+2025-11-24T22:46:09+0000 [canarytokens.channel_input_mysql.CanaryMySQLFactory#info] Starting factory <canarytokens.channel_input_mysql.CanaryMySQLFactory object at 0x7610c35e5ac0>
+2025-11-24T22:46:09+0000 [-] WireGuardProtocol starting on 51820
+2025-11-24T22:46:09+0000 [-] Starting protocol <canarytokens.channel_input_wireguard.WireGuardProtocol object at 0x7610c35e5550>
+2025-11-24T22:49:09+0000 [canarytokens.queries#warn] Error getting geo ip: HTTPConnectionPool(host='ipinfo.io', port=80): Max retries exceeded with url: /192.120.2.115/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7610c2dcfa30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-11-24T22:49:09+0000 [canarytokens.queries#info] Saved canarydrop for token: vhpomd2si5m8eozfr6fpy6v2y
+2025-11-24T22:49:09+0000 [canarytokens.channel#info] reactor is running?: True
+2025-11-24T22:49:09+0000 [twisted.python.log#info] "172.18.0.5" - - [24/Nov/2025:22:49:08 +0000] "GET /stuff/vhpomd2si5m8eozfr6fpy6v2y/payments.js HTTP/1.0" 200 55 "-" "Mozilla/4.0 (compatible; ms-office; MSOffice 16)"
+2025-11-24T22:49:09+0000 [canarytokens.channel_output_email#error] No email settings found
+2025-11-24T22:49:09+0000 [canarytokens.channel#error] Dispatch errored: [Failure instance: Traceback: <class 'AttributeError'>: 'NoneType' object has no attribute 'value'
+	/usr/local/lib/python3.9/threading.py:980:_bootstrap_inner
+	/usr/local/lib/python3.9/threading.py:917:run
+	/srv/.venv/lib/python3.9/site-packages/twisted/_threads/_threadworker.py:47:work
+	/srv/.venv/lib/python3.9/site-packages/twisted/_threads/_team.py:182:doWork
+	--- <exception caught here> ---
+	/srv/.venv/lib/python3.9/site-packages/twisted/python/threadpool.py:244:inContext
+	/srv/.venv/lib/python3.9/site-packages/twisted/python/threadpool.py:260:<lambda>
+	/srv/.venv/lib/python3.9/site-packages/twisted/python/context.py:117:callWithContext
+	/srv/.venv/lib/python3.9/site-packages/twisted/python/context.py:82:callWithContext
+	/srv/canarytokens/switchboard.py:93:dispatch
+	/srv/canarytokens/channel.py:159:send_alert
+	/srv/canarytokens/channel_output_email.py:593:do_send_alert
+	/srv/canarytokens/channel_output_email.py:605:handle_email_response
+	/srv/canarytokens/channel_output_email.py:100:handle
+	]
