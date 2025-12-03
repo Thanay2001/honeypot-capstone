@@ -1,0 +1,6 @@
+fb-out/*
+!fb-out/.gitkeep
+logs/*
+!logs/.gitkeep
+Tripwyre-Project/canarytokens-docker/logs/*
+!Tripwyre-Project/canarytokens-docker/logs/.gitkeep

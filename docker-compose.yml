@@ -1,0 +1,23 @@
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: cowrie
+    ports:
+      - "2222:2222"
+      - "2223:2223"
+    volumes:
+      - ./logs:/cowrie/cowrie-git/var/log/cowrie:rw
+
+  fluent-bit:
+    image: fluent/fluent-bit:latest
+    container_name: fluent-bit
+    volumes:
+      - ./logs:/var/log/cowrie:rw
+      - ./fluent-bit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf:ro
+      - ./fb-out:/fluent-bit/out:rw
+      - ./canarytokens-docker/logs:/var/log/canarytokens:ro
+    
+    command: ["/fluent-bit/bin/fluent-bit", "-c", "/fluent-bit/etc/fluent-bit.conf"]
+
+    depends_on:
+      - cowrie

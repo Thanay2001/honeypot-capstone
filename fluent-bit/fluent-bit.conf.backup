@@ -1,0 +1,25 @@
+[SERVICE]
+    Flush       1
+    Daemon      Off
+    Log_Level   info
+
+[INPUT]
+    Name    tail
+    Tag     cowrie
+    Path    /var/log/cowrie/*
+    Mem_Buf_Limit   10MB
+    Skip_Long_Lines On
+    Refresh_Interval    5
+
+[FILTER]
+    Name    modify
+    Match   cowrie
+    Add     source cowrie
+    Add     pipeline cowrie-fb-file
+
+[OUTPUT]
+    Name    file
+    Match   cowrie
+
+    Path    /fluent-bit/out
+    File    cowrie-processed.log
