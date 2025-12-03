@@ -4,3 +4,5 @@ logs/*
 !logs/.gitkeep
 Tripwyre-Project/canarytokens-docker/logs/*
 !Tripwyre-Project/canarytokens-docker/logs/.gitkeep
+# Canarytokens runtime data
+canarytokens-docker/data/
