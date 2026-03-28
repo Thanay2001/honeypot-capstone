@@ -70,3 +70,258 @@
 	/srv/canarytokens/channel_output_email.py:605:handle_email_response
 	/srv/canarytokens/channel_output_email.py:100:handle
 	]
+2026-02-27T01:26:05+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel Email
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel Webhook
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel DNS
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel HTTP
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel SMTP
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2026-02-27T01:26:05+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2026-02-27T01:26:05+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2026-02-27T01:26:05+0000 [canarytokens.channel_input_mtls#debug] generating cert
+2026-02-27T01:26:05+0000 [canarytokens.channel_input_mtls#debug] generating new certificate
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] generating cert
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] generating new certificate
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] generating cert
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] generating new certificate
+2026-02-27T01:26:07+0000 [canarytokens.channel#info] Started channel MYSQL
+2026-02-27T01:26:07+0000 [canarytokens.channel#info] Started channel WireGuard
+2026-02-27T01:26:07+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'riv6HSqElla1zRsGO8Tb9Y/t+gSmCrdYJ+EDsaUBw1o='
+2026-02-27T01:26:07+0000 [-] Loaded.
+2026-02-27T01:26:02+0000 [-] Loading switchboard.tac...
+2026-02-27T01:26:05+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel Email
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel Webhook
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel DNS
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel HTTP
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel SMTP
+2026-02-27T01:26:05+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2026-02-27T01:26:05+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2026-02-27T01:26:05+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2026-02-27T01:26:05+0000 [canarytokens.channel_input_mtls#debug] generating cert
+2026-02-27T01:26:05+0000 [canarytokens.channel_input_mtls#debug] generating new certificate
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] generating cert
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] generating new certificate
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] generating cert
+2026-02-27T01:26:06+0000 [canarytokens.channel_input_mtls#debug] generating new certificate
+2026-02-27T01:26:07+0000 [canarytokens.channel#info] Started channel MYSQL
+2026-02-27T01:26:07+0000 [canarytokens.channel#info] Started channel WireGuard
+2026-02-27T01:26:07+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'riv6HSqElla1zRsGO8Tb9Y/t+gSmCrdYJ+EDsaUBw1o='
+2026-02-27T01:26:07+0000 [-] Loaded.
+2026-02-27T01:26:07+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 24.11.0 (/srv/.venv/bin/python 3.13.12) starting up.
+2026-02-27T01:26:07+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-02-27T01:26:07+0000 [-] DNSDatagramProtocol starting on 5354
+2026-02-27T01:26:07+0000 [-] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x7fbd0b6582f0>
+2026-02-27T01:26:07+0000 [-] Site starting on 8083
+2026-02-27T01:26:07+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site object at 0x7fbd0b658ad0>
+2026-02-27T01:26:07+0000 [-] CanarySMTPFactory starting on 2500
+2026-02-27T01:26:07+0000 [canarytokens.channel_input_smtp.CanarySMTPFactory#info] Starting factory <canarytokens.channel_input_smtp.CanarySMTPFactory object at 0x7fbd0b658ec0>
+2026-02-27T01:26:07+0000 [-] mTLSFactory (TLS) starting on 6443
+2026-02-27T01:26:07+0000 [canarytokens.channel_input_mtls.mTLSFactory#info] Starting factory <canarytokens.channel_input_mtls.mTLSFactory object at 0x7fbd0b65bb60>
+2026-02-27T01:26:07+0000 [-] CanaryMySQLFactory starting on 3306
+2026-02-27T01:26:07+0000 [canarytokens.channel_input_mysql.CanaryMySQLFactory#info] Starting factory <canarytokens.channel_input_mysql.CanaryMySQLFactory object at 0x7fbd0b65be00>
+2026-02-27T01:26:07+0000 [-] WireGuardProtocol starting on 51820
+2026-02-27T01:26:07+0000 [-] Starting protocol <canarytokens.channel_input_wireguard.WireGuardProtocol object at 0x7fbd0b6941a0>
+2026-02-27T01:36:32+0000 [twisted.internet.base#info] Received SIGTERM, shutting down.
+2026-02-27T01:36:32+0000 [-] (UDP Port 51820 Closed)
+2026-02-27T01:36:32+0000 [-] Stopping protocol <canarytokens.channel_input_wireguard.WireGuardProtocol object at 0x7fbd0b6941a0>
+2026-02-27T01:36:32+0000 [-] (TCP Port 3306 Closed)
+2026-02-27T01:36:32+0000 [canarytokens.channel_input_mysql.CanaryMySQLFactory#info] Stopping factory <canarytokens.channel_input_mysql.CanaryMySQLFactory object at 0x7fbd0b65be00>
+2026-02-27T01:36:32+0000 [-] (TLS Port 6443 Closed)
+2026-02-27T01:36:32+0000 [canarytokens.channel_input_mtls.mTLSFactory#info] Stopping factory <canarytokens.channel_input_mtls.mTLSFactory object at 0x7fbd0b65bb60>
+2026-02-27T01:36:32+0000 [-] (TCP Port 2500 Closed)
+2026-02-27T01:36:32+0000 [canarytokens.channel_input_smtp.CanarySMTPFactory#info] Stopping factory <canarytokens.channel_input_smtp.CanarySMTPFactory object at 0x7fbd0b658ec0>
+2026-02-27T01:36:32+0000 [-] (TCP Port 8083 Closed)
+2026-02-27T01:36:32+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site object at 0x7fbd0b658ad0>
+2026-02-27T01:36:32+0000 [-] (UDP Port 5354 Closed)
+2026-02-27T01:36:32+0000 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x7fbd0b6582f0>
+2026-02-27T01:36:32+0000 [twisted.internet.base#info] Main loop terminated.
+2026-02-27T01:36:32+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2026-02-27T01:59:10+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel Email
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel Webhook
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel DNS
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel HTTP
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel SMTP
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel MYSQL
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel WireGuard
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'5JKiiMZSUPh9414I1primgFnxeKCGCF44B7uIEOVDXs='
+2026-02-27T01:59:10+0000 [-] Loaded.
+2026-02-27T01:59:07+0000 [-] Loading switchboard.tac...
+2026-02-27T01:59:10+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel Email
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel Webhook
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel DNS
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel HTTP
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel SMTP
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel MYSQL
+2026-02-27T01:59:10+0000 [canarytokens.channel#info] Started channel WireGuard
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'5JKiiMZSUPh9414I1primgFnxeKCGCF44B7uIEOVDXs='
+2026-02-27T01:59:10+0000 [-] Loaded.
+2026-02-27T01:59:10+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 24.11.0 (/srv/.venv/bin/python 3.13.12) starting up.
+2026-02-27T01:59:10+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-02-27T01:59:10+0000 [-] DNSDatagramProtocol starting on 5354
+2026-02-27T01:59:10+0000 [-] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x7f0fa96582f0>
+2026-02-27T01:59:10+0000 [-] Site starting on 8083
+2026-02-27T01:59:10+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site object at 0x7f0fa9658ad0>
+2026-02-27T01:59:10+0000 [-] CanarySMTPFactory starting on 2500
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_smtp.CanarySMTPFactory#info] Starting factory <canarytokens.channel_input_smtp.CanarySMTPFactory object at 0x7f0fa9658ec0>
+2026-02-27T01:59:10+0000 [-] mTLSFactory (TLS) starting on 6443
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mtls.mTLSFactory#info] Starting factory <canarytokens.channel_input_mtls.mTLSFactory object at 0x7f0fa965bb60>
+2026-02-27T01:59:10+0000 [-] CanaryMySQLFactory starting on 3306
+2026-02-27T01:59:10+0000 [canarytokens.channel_input_mysql.CanaryMySQLFactory#info] Starting factory <canarytokens.channel_input_mysql.CanaryMySQLFactory object at 0x7f0fa96941a0>
+2026-02-27T01:59:10+0000 [-] WireGuardProtocol starting on 51820
+2026-02-27T01:59:10+0000 [-] Starting protocol <canarytokens.channel_input_wireguard.WireGuardProtocol object at 0x7f0fa9694980>
+2026-03-05T22:03:19+0000 [twisted.internet.base#info] Received SIGTERM, shutting down.
+2026-03-05T22:03:19+0000 [-] (UDP Port 51820 Closed)
+2026-03-05T22:03:19+0000 [-] Stopping protocol <canarytokens.channel_input_wireguard.WireGuardProtocol object at 0x7f0fa9694980>
+2026-03-05T22:03:19+0000 [-] (TCP Port 3306 Closed)
+2026-03-05T22:03:19+0000 [canarytokens.channel_input_mysql.CanaryMySQLFactory#info] Stopping factory <canarytokens.channel_input_mysql.CanaryMySQLFactory object at 0x7f0fa96941a0>
+2026-03-05T22:03:19+0000 [-] (TLS Port 6443 Closed)
+2026-03-05T22:03:19+0000 [canarytokens.channel_input_mtls.mTLSFactory#info] Stopping factory <canarytokens.channel_input_mtls.mTLSFactory object at 0x7f0fa965bb60>
+2026-03-05T22:03:19+0000 [-] (TCP Port 2500 Closed)
+2026-03-05T22:03:19+0000 [canarytokens.channel_input_smtp.CanarySMTPFactory#info] Stopping factory <canarytokens.channel_input_smtp.CanarySMTPFactory object at 0x7f0fa9658ec0>
+2026-03-05T22:03:19+0000 [-] (TCP Port 8083 Closed)
+2026-03-05T22:03:19+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site object at 0x7f0fa9658ad0>
+2026-03-05T22:03:19+0000 [-] (UDP Port 5354 Closed)
+2026-03-05T22:03:19+0000 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x7f0fa96582f0>
+2026-03-05T22:03:19+0000 [twisted.internet.base#info] Main loop terminated.
+2026-03-05T22:03:19+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2026-03-05T22:03:30+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel Email
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel Webhook
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel DNS
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel HTTP
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel SMTP
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel MYSQL
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel WireGuard
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'T9PxRJ9pzqUyVuzY8RVfDgU4JFHvNptPSkFneLpvimE='
+2026-03-05T22:03:30+0000 [-] Loaded.
+2026-03-05T22:03:28+0000 [-] Loading switchboard.tac...
+2026-03-05T22:03:30+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel Email
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel Webhook
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel DNS
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel HTTP
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel SMTP
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel MYSQL
+2026-03-05T22:03:30+0000 [canarytokens.channel#info] Started channel WireGuard
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'T9PxRJ9pzqUyVuzY8RVfDgU4JFHvNptPSkFneLpvimE='
+2026-03-05T22:03:30+0000 [-] Loaded.
+2026-03-05T22:03:30+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 24.11.0 (/srv/.venv/bin/python 3.13.12) starting up.
+2026-03-05T22:03:30+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-03-05T22:03:30+0000 [-] DNSDatagramProtocol starting on 5354
+2026-03-05T22:03:30+0000 [-] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x7f2e644442f0>
+2026-03-05T22:03:30+0000 [-] Site starting on 8083
+2026-03-05T22:03:30+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site object at 0x7f2e64444ad0>
+2026-03-05T22:03:30+0000 [-] CanarySMTPFactory starting on 2500
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_smtp.CanarySMTPFactory#info] Starting factory <canarytokens.channel_input_smtp.CanarySMTPFactory object at 0x7f2e64444ec0>
+2026-03-05T22:03:30+0000 [-] mTLSFactory (TLS) starting on 6443
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mtls.mTLSFactory#info] Starting factory <canarytokens.channel_input_mtls.mTLSFactory object at 0x7f2e64447b60>
+2026-03-05T22:03:30+0000 [-] CanaryMySQLFactory starting on 3306
+2026-03-05T22:03:30+0000 [canarytokens.channel_input_mysql.CanaryMySQLFactory#info] Starting factory <canarytokens.channel_input_mysql.CanaryMySQLFactory object at 0x7f2e644901a0>
+2026-03-05T22:03:30+0000 [-] WireGuardProtocol starting on 51820
+2026-03-05T22:03:30+0000 [-] Starting protocol <canarytokens.channel_input_wireguard.WireGuardProtocol object at 0x7f2e64490980>
+2026-03-19T20:29:18+0000 [twisted.internet.base#info] Received SIGTERM, shutting down.
+2026-03-19T20:29:18+0000 [-] (UDP Port 51820 Closed)
+2026-03-19T20:29:18+0000 [-] Stopping protocol <canarytokens.channel_input_wireguard.WireGuardProtocol object at 0x7f2e64490980>
+2026-03-19T20:29:18+0000 [-] (TCP Port 3306 Closed)
+2026-03-19T20:29:18+0000 [canarytokens.channel_input_mysql.CanaryMySQLFactory#info] Stopping factory <canarytokens.channel_input_mysql.CanaryMySQLFactory object at 0x7f2e644901a0>
+2026-03-19T20:29:18+0000 [-] (TLS Port 6443 Closed)
+2026-03-19T20:29:18+0000 [canarytokens.channel_input_mtls.mTLSFactory#info] Stopping factory <canarytokens.channel_input_mtls.mTLSFactory object at 0x7f2e64447b60>
+2026-03-19T20:29:18+0000 [-] (TCP Port 2500 Closed)
+2026-03-19T20:29:18+0000 [canarytokens.channel_input_smtp.CanarySMTPFactory#info] Stopping factory <canarytokens.channel_input_smtp.CanarySMTPFactory object at 0x7f2e64444ec0>
+2026-03-19T20:29:18+0000 [-] (TCP Port 8083 Closed)
+2026-03-19T20:29:18+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site object at 0x7f2e64444ad0>
+2026-03-19T20:29:18+0000 [-] (UDP Port 5354 Closed)
+2026-03-19T20:29:18+0000 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x7f2e644442f0>
+2026-03-19T20:29:18+0000 [twisted.internet.base#info] Main loop terminated.
+2026-03-19T20:29:18+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2026-03-28T03:40:25+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel Email
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel Webhook
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel DNS
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel HTTP
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel SMTP
+2026-03-28T03:40:26+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-28T03:40:26+0000 [canarytokens.channel#info] Started channel MYSQL
+2026-03-28T03:40:26+0000 [canarytokens.channel#info] Started channel WireGuard
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'uq12YRFYv6vvXbFv9pD6AjZRGTJHFDhdXMEpxiBSl3c='
+2026-03-28T03:40:26+0000 [-] Loaded.
+2026-03-28T03:40:22+0000 [-] Loading switchboard.tac...
+2026-03-28T03:40:25+0000 [canarytokens.switchboard#info] Canarytokens switchboard started
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel Email
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel Webhook
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel DNS
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel HTTP
+2026-03-28T03:40:25+0000 [canarytokens.channel#info] Started channel SMTP
+2026-03-28T03:40:26+0000 [canarytokens.channel#info] Started channel Kubeconfig
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] _get_ssl_context
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_client_ca
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_ca
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] checking for: kubeconfig_server_cert
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls#debug] cert found
+2026-03-28T03:40:26+0000 [canarytokens.channel#info] Started channel MYSQL
+2026-03-28T03:40:26+0000 [canarytokens.channel#info] Started channel WireGuard
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_wireguard#info] Console public key: b'uq12YRFYv6vvXbFv9pD6AjZRGTJHFDhdXMEpxiBSl3c='
+2026-03-28T03:40:26+0000 [-] Loaded.
+2026-03-28T03:40:26+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 24.11.0 (/srv/.venv/bin/python 3.13.12) starting up.
+2026-03-28T03:40:26+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2026-03-28T03:40:26+0000 [-] DNSDatagramProtocol starting on 5354
+2026-03-28T03:40:26+0000 [-] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x7f0c8d6442f0>
+2026-03-28T03:40:26+0000 [-] Site starting on 8083
+2026-03-28T03:40:26+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site object at 0x7f0c8d644ad0>
+2026-03-28T03:40:26+0000 [-] CanarySMTPFactory starting on 2500
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_smtp.CanarySMTPFactory#info] Starting factory <canarytokens.channel_input_smtp.CanarySMTPFactory object at 0x7f0c8d644ec0>
+2026-03-28T03:40:26+0000 [-] mTLSFactory (TLS) starting on 6443
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mtls.mTLSFactory#info] Starting factory <canarytokens.channel_input_mtls.mTLSFactory object at 0x7f0c8d647b60>
+2026-03-28T03:40:26+0000 [-] CanaryMySQLFactory starting on 3306
+2026-03-28T03:40:26+0000 [canarytokens.channel_input_mysql.CanaryMySQLFactory#info] Starting factory <canarytokens.channel_input_mysql.CanaryMySQLFactory object at 0x7f0c8d6901a0>
+2026-03-28T03:40:26+0000 [-] WireGuardProtocol starting on 51820
+2026-03-28T03:40:26+0000 [-] Starting protocol <canarytokens.channel_input_wireguard.WireGuardProtocol object at 0x7f0c8d690980>
