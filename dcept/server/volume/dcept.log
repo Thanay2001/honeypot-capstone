@@ -1,0 +1,125 @@
+2026-03-29 00:18:12,296 INFO Server configured as master node
+2026-03-29 00:18:12,296 INFO Starting DCEPT...
+2026-03-29 00:18:12,317 INFO Database contains 1 generated passwords
+2026-03-29 00:18:12,318 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:18:12,319 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:18:12,319 DEBUG Using selector: EpollSelector
+2026-03-29 00:18:48,123 INFO kerb-as-req for domain user TRIPWYRE\Administrator
+2026-03-29 00:18:48,123 DEBUG Ignoring kerb-as-req for 'TRIPWYRE\Administrator'
+2026-03-29 00:18:48,128 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:18:48,143 INFO kerb-as-req for domain user TRIPWYRE\Administrator
+2026-03-29 00:18:48,143 DEBUG Ignoring kerb-as-req for 'TRIPWYRE\Administrator'
+2026-03-29 00:18:48,149 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:18:48,168 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:18:48,175 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:19:32,156 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:19:32,156 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:19:33,488 INFO Server configured as master node
+2026-03-29 00:19:33,488 INFO Starting DCEPT...
+2026-03-29 00:19:33,488 INFO Database contains 2 generated passwords
+2026-03-29 00:19:33,489 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:19:33,489 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:19:33,489 DEBUG Using selector: EpollSelector
+2026-03-29 00:23:07,499 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:23:07,501 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:23:08,878 INFO Server configured as master node
+2026-03-29 00:23:08,878 INFO Starting DCEPT...
+2026-03-29 00:23:08,878 INFO Database contains 2 generated passwords
+2026-03-29 00:23:08,879 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:23:08,880 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:23:08,881 DEBUG Using selector: EpollSelector
+2026-03-29 00:25:26,411 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:25:26,411 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:25:27,754 INFO Server configured as master node
+2026-03-29 00:25:27,754 INFO Starting DCEPT...
+2026-03-29 00:25:27,755 INFO Database contains 3 generated passwords
+2026-03-29 00:25:27,755 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:25:27,757 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:25:27,758 DEBUG Using selector: EpollSelector
+2026-03-29 00:33:48,721 INFO kerb-as-req for domain user TRIPWYRE.COM\Administrator
+2026-03-29 00:33:48,721 DEBUG Ignoring kerb-as-req for 'TRIPWYRE.COM\Administrator'
+2026-03-29 00:33:48,724 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:33:48,738 INFO kerb-as-req for domain user TRIPWYRE.COM\Administrator
+2026-03-29 00:33:48,738 DEBUG Ignoring kerb-as-req for 'TRIPWYRE.COM\Administrator'
+2026-03-29 00:33:48,742 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:33:48,760 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:33:48,768 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:33:48,770 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:41:54,320 INFO Server configured as master node
+2026-03-29 00:41:54,321 INFO Starting DCEPT...
+2026-03-29 00:41:54,325 INFO Database contains 3 generated passwords
+2026-03-29 00:41:54,330 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:41:54,330 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:41:54,331 DEBUG Using selector: EpollSelector
+2026-03-29 00:42:16,268 INFO kerb-as-req for domain user TRIPWYRE\Administrator
+2026-03-29 00:42:16,269 DEBUG Ignoring kerb-as-req for 'TRIPWYRE\Administrator'
+2026-03-29 00:42:16,271 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:42:16,284 INFO kerb-as-req for domain user TRIPWYRE\Administrator
+2026-03-29 00:42:16,285 DEBUG Ignoring kerb-as-req for 'TRIPWYRE\Administrator'
+2026-03-29 00:42:16,289 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:42:16,306 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:42:16,312 DEBUG Ignoring kerberos packet - Not kerb-as-req
+2026-03-29 00:42:38,796 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:42:38,796 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:42:40,168 INFO Server configured as master node
+2026-03-29 00:42:40,168 INFO Starting DCEPT...
+2026-03-29 00:42:40,168 INFO Database contains 4 generated passwords
+2026-03-29 00:42:40,169 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:42:40,169 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:42:40,169 DEBUG Using selector: EpollSelector
+2026-03-29 00:47:32,303 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:47:32,305 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:47:33,788 INFO Server configured as master node
+2026-03-29 00:47:33,789 INFO Starting DCEPT...
+2026-03-29 00:47:33,790 INFO Database contains 4 generated passwords
+2026-03-29 00:47:33,791 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:47:33,792 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:47:33,792 DEBUG Using selector: EpollSelector
+2026-03-29 00:51:32,974 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:51:32,975 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:51:34,294 INFO Server configured as master node
+2026-03-29 00:51:34,294 INFO Starting DCEPT...
+2026-03-29 00:51:34,294 INFO Database contains 4 generated passwords
+2026-03-29 00:51:34,295 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:51:34,296 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:51:34,296 DEBUG Using selector: EpollSelector
+2026-03-29 00:52:05,195 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:52:05,195 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:52:06,518 INFO Server configured as master node
+2026-03-29 00:52:06,518 INFO Starting DCEPT...
+2026-03-29 00:52:06,519 INFO Database contains 4 generated passwords
+2026-03-29 00:52:06,519 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:52:06,519 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:52:06,520 DEBUG Using selector: EpollSelector
+2026-03-29 00:54:07,661 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:54:07,662 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:54:09,017 INFO Server configured as master node
+2026-03-29 00:54:09,017 INFO Starting DCEPT...
+2026-03-29 00:54:09,017 INFO Database contains 4 generated passwords
+2026-03-29 00:54:09,018 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:54:09,018 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:54:09,018 DEBUG Using selector: EpollSelector
+2026-03-29 00:54:56,112 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:54:56,114 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:54:57,498 INFO Server configured as master node
+2026-03-29 00:54:57,498 INFO Starting DCEPT...
+2026-03-29 00:54:57,499 INFO Database contains 4 generated passwords
+2026-03-29 00:54:57,499 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:54:57,500 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:54:57,500 DEBUG Using selector: EpollSelector
+2026-03-29 00:57:23,283 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:57:23,285 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:57:24,709 INFO Server configured as master node
+2026-03-29 00:57:24,709 INFO Starting DCEPT...
+2026-03-29 00:57:24,709 INFO Database contains 4 generated passwords
+2026-03-29 00:57:24,710 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:57:24,711 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:57:24,711 DEBUG Using selector: EpollSelector
+2026-03-29 00:57:48,939 INFO kerb-as-req for domain user TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:57:48,939 CRITICAL Honeytoken Kerberos authentication observed for TRIPWYRE.COM\BackupAdministrator
+2026-03-29 00:57:50,269 INFO Server configured as master node
+2026-03-29 00:57:50,269 INFO Starting DCEPT...
+2026-03-29 00:57:50,269 INFO Database contains 4 generated passwords
+2026-03-29 00:57:50,270 INFO Starting honeytoken generation server HTTP daemon 0.0.0.0:8087
+2026-03-29 00:57:50,270 INFO kerbsniff: Looking for TRIPWYRE.COM\BackupAdministrator on ens160
+2026-03-29 00:57:50,270 DEBUG Using selector: EpollSelector

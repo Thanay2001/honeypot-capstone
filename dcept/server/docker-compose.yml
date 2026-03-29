@@ -1,0 +1,14 @@
+services:
+  dcept:
+    build:
+      context: /home/administrator/Documents/Project/honeypot-capstone/dcept/server
+      dockerfile: Dockerfile
+    container_name: dcept
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    restart: unless-stopped
+    volumes:
+      - ./volume:/opt/dcept/var
+      - ./dcept.cfg:/opt/dcept/dcept.cfg:ro
